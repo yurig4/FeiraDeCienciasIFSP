@@ -24,13 +24,13 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
-    <!-- Cabeçalho e Navegação -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#home" class="text-2xl font-bold text-green-700">IFSP Matão</a>
             <div class="hidden md:flex items-center space-x-8">
                 <a href="#home" class="nav-link text-gray-600 hover:text-green-700">Home</a>
                 <a href="#edital" class="nav-link text-gray-600 hover:text-green-700">Edital</a>
+                <a href="#grupos" class="nav-link text-gray-600 hover:text-green-700">Grupos</a>
                 <a href="#inscricao" class="nav-link text-gray-600 hover:text-green-700">Inscrição</a>
                 <a href="#modelo-resumo" class="nav-link text-gray-600 hover:text-green-700">Modelo do Resumo</a>
                 <a href="#calendario" class="nav-link text-gray-600 hover:text-green-700">Calendário</a>
@@ -42,10 +42,10 @@
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
             </button>
         </nav>
-        <!-- Menu Mobile -->
         <div id="mobile-menu" class="hidden md:hidden px-6 pb-4">
             <a href="#home" class="block py-2 text-gray-600 hover:text-green-700">Home</a>
             <a href="#edital" class="block py-2 text-gray-600 hover:text-green-700">Edital</a>
+            <a href="#grupos" class="block py-2 text-gray-600 hover:text-green-700">Grupos</a>
             <a href="#inscricao" class="block py-2 text-gray-600 hover:text-green-700">Inscrição</a>
             <a href="#modelo-resumo" class="block py-2 text-gray-600 hover:text-green-700">Modelo do Resumo</a>
             <a href="#calendario" class="block py-2 text-gray-600 hover:text-green-700">Calendário</a>
@@ -56,7 +56,6 @@
     </header>
 
     <main>
-        <!-- Seção Home -->
         <section id="home" class="hero-bg text-white py-20">
             <div class="container mx-auto px-6 text-center">
                 <h1 class="text-4xl md:text-5xl font-bold mb-4">10ª Feira de Ciências, Arte e Cultura</h1>
@@ -73,7 +72,7 @@
                         </ul>
                         <a href="#edital" class="mt-6 inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105">Acesse o Edital</a>
                     </div>
-                     <div class="countdown" data-date="2025-10-22T00:00:00">
+                    <div class="countdown" data-date="2025-10-22T00:00:00">
                         <h3 class="text-2xl font-bold mb-4">Contagem Regressiva</h3>
                         <div class="grid grid-cols-4 gap-4 text-center">
                             <div>
@@ -98,160 +97,163 @@
             </div>
         </section>
 
-        <!-- Seção Edital -->
-        
         <section id="edital" class="py-20">
             <div class="container mx-auto px-6">
-                <h2 class="text-3xl font-bold text-center mb-12">Edital e Grupos</h2>
+                <h2 class="text-3xl font-bold text-center mb-12">Edital</h2>
                 <div class="text-center mb-12">
                     <p class="mb-4">Acesse o edital completo para ter acesso a todas as regras e orientações para a submissão de trabalhos.</p>
                     <a href="Edital X Feira de Ciências, Arte e Cultura do IFSP MTO_Edital nº472025.pdf" download class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105">Baixar Edital</a>
                 </div>
+            </div>
+        </section>
 
-                <h3 class="text-2xl font-bold text-center mb-8">Grupos por Temas</h3>
-                    <div class="overflow-x-auto bg-white p-6 rounded-lg shadow-lg">
-                        <table class="w-full text-left">
-                            <thead class="bg-gray-100">
-                                <tr>
-                                    <th class="p-4 font-semibold">Escola</th>
-                                    <th class="p-4 font-semibold">Tema do Projeto</th>
-                                    <th class="p-4 font-semibold">Integrantes</th>
-                                    <th class="p-4 font-semibold">Orientador(a)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">1.0 Mar que Nos Forma: ancestralidade africana e o sagrado das águas;</td>
-                                    <td class="p-4">Isabella Calegari, Raul Militão, Maria Letícia Pires, Sophia Rebeca, Lucas Henrique dos Santos</td>
-                                    <td class="p-4">Jonatan dos Santos Donato Alves</td>
-                                </tr>
-                                <tr class="border-b bg-gray-50">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">2.pH dos Oceanos e Acidificação Marinha - O Papel da Química no Clima;</td>
-                                    <td class="p-4">Ana Alice Angeloni, Giovana Bessi, Heloísa Fincolo, Rafaella Azevedo e Richard Almeida</td>
-                                    <td class="p-4">João Pedro Bueno de Oliveira</td>
-                                </tr>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">3. Microplásticos Invisíveis - Investigando Produtos de Higiene e seu Caminho até o Oceano;</td>
-                                    <td class="p-4">Guilherme Henrique Chiuchi, Leonardo Henrique Leite, Letícia Cunha Oliveira, Richard Almeida Ferreira</td>
-                                    <td class="p-4">João Pedro Bueno de Oliveira</td>
-                                </tr>
-                                <tr class="border-b bg-gray-50">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">4.Gases estufa e seus efeitos na vida dos oceanos;</td>
-                                    <td class="p-4">Laura Bergamim Cinel, Beatriz Gevezier, Maria Eduarda Oliveira Pio, Matheus Paviani e Gabriel Agusto Alves.</td>
-                                    <td class="p-4">Eliziane Carla Scariot</td>
-                                </tr>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">5.Detetive ambiental: Investigando micropartículas de pneu em nossas águas;</td>
-                                    <td class="p-4">Bianca vitória Alves dos Santos, Isabelly Gutierres, Sophia pires, Amanda Nascimento, Noemy gevezier</td>
-                                    <td class="p-4">Carlos Eduardo Crestani</td>
-                                </tr>
-                                <tr class="border-b bg-gray-50">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">6.Salgado como o mar- o custo invisível do nosso consumo;</td>
-                                    <td class="p-4">Ester Gomes, Jonathan das Neves, Larissa B Santos</td>
-                                    <td class="p-4">Glaucia Santos Vieira</td>
-                                </tr>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">7.Bioluminescência: a luz misteriosa dos microrganismos marinhos;</td>
-                                    <td class="p-4">Mariana de Oliveira, Matheus Travensolo, Antonia Gabriela Barbosa, Lavinia Viale Silva, Lorena Tayrine de Sousa, Maria Fernanda Miguel Barboza, Marielly Edwiges</td>
-                                    <td class="p-4">Caroline Pigatto De Nardi</td>
-                                </tr>
-                                <tr class="border-b bg-gray-50">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">8. Energia que vem das ondas: o mar como fonte de futuro sustentável;</td>
-                                    <td class="p-4">Vinicius de Souza Chiozzini, Luiz Felipe Pereira Carmo, Luan Felipe, Gabriel Santana Ferreira, Diogo Ferreira Silva</td>
-                                    <td class="p-4">Filipe Camargo, Dalmatti Alves Lima</td>
-                                </tr>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">9.Aromas do Oceano: Destilação de Óleos de Algas Marinhas;</td>
-                                    <td class="p-4">Adrian Hendrick, Agata Silvério de Lucca Silva, Igor de Melo frauches, Isabelle Moratta, Maria Julia Bernasconi</td>
-                                    <td class="p-4">Jane Karla de Faria Borges Machado</td>
-                                </tr>
-                                <tr class="border-b bg-gray-50">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">10.Maremotriz: Energia das Marés;</td>
-                                    <td class="p-4">Gabrielly Teixeira De Sousa, Geovana Carvalo De Andrade, Geovana Schmidt Leite, Guilherme Aparecido Maschiari Vilela, Maria Clara Da Silva</td>
-                                    <td class="p-4">Carla Yuri Kisen</td>
-                                </tr>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">13.Crise do Neoliberalismo e Desequilíbrio Ambiental;</td>
-                                    <td class="p-4">Heloiza Forcarelli dos Santos, Isabela Zanella Pereira, João Henrique Souza Santos, Natanael F. S. do Carmo, Vytor hugo Alves de Jesus</td>
-                                    <td class="p-4">Antonio Marcos Martins</td>
-                                </tr>
-                                <tr class="border-b bg-gray-50">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">14. Naufrágios: tesouros no fundo do mar</td>
-                                    <td class="p-4">Agata Moreira, Leonardo Leite, Maria Duarte, Miguel Alixame, Milla Fernandes e Maria Vitoria de Souza</td>
-                                    <td class="p-4">Yuri Tejo Araújo</td>
-                                </tr>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">16.Do Mar ao Laboratório: Explorando os Tesouros da Biorrefinaria Marinha;</td>
-                                    <td class="p-4">Manuela Calabres França, Isabelly Cristine Rodrigues de Souza, Giovana Cristina da Silva, Maria Eduarda Henrique de Campos, Gabriel Mora de Souza</td>
-                                    <td class="p-4">Daniela Remonatto</td>
-                                </tr>
-                                <tr class="border-b bg-gray-50">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">17.Biorremediação de áreas contaminadas com petróleo;</td>
-                                    <td class="p-4">Pablo Tito Lepre da Silva, Rafaela Machado Vieira, Júlia França Santos, Eduardo Mattos Barboza, Ana Laura Rebelatti</td>
-                                    <td class="p-4">Daniela Remonatto</td>
-                                </tr>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">18. Economia Azul em Risco: Como a Poluição Oceânica Afeta Setores Econômicos;</td>
-                                    <td class="p-4">Leonardo schiabeli, Isabella Vicente, isabelly viscardi, Pedro wetterich e Victória Micaela</td>
-                                    <td class="p-4">Rodrigo dos Santos Silva</td>
-                                </tr>
-                                <tr class="border-b bg-gray-50">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">19. Quanto plástico vai parar no mar? Modelagem e projeções;</td>
-                                    <td class="p-4">Mariany Victoria Jolli, Pedro Henrique Lopes Gabriely, Gabrielly Voltolini Germano e Igor Ferreira Maester</td>
-                                    <td class="p-4">Ana Paula Mazzini Lima</td>
-                                </tr>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">21.Água mole, pedra dura, tanto bate até que fura:</td>
-                                    <td class="p-4">Matheus Bossini Marcondes dos Santos, Alexandre Lima Rossini, Alan Duarte Lobianco Júnior, Fernanda Fortunato, Caren Nascimento</td>
-                                    <td class="p-4">Deysiele Oliveira Alves</td>
-                                </tr>
-                                <tr class="border-b bg-gray-50">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">23.Empreendedorismo Alimentar em Comunidades Pesqueiras</td>
-                                    <td class="p-4">Pedro Gomes Moraes Neto, Breno Augusto da Mota, Leonardo Pereira Cândido, Eduardo Francisco André Barbosa Chrispim, Guilherme Venceslau de Melo</td>
-                                    <td class="p-4">Juliana Infante</td>
-                                </tr>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">25.Fitoplancton: O Verdadeiro Pulmão do Mundo (Sem Nem Ter Folha!);</td>
-                                    <td class="p-4">Bryan dos Santos Gonzaga, Maria Julia Pinheiro Di Santo, Gabrie maciel, Felipe Figueira, Isabela Soares De Souza</td>
-                                    <td class="p-4">Vivian de Oliveira Lima</td>
-                                </tr>
-                                <tr class="border-b bg-gray-50">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">26.GPS das Baleias, iFood dos Plânctons: Conheça as Correntes Maritimas.</td>
-                                    <td class="p-4">Ana Maria dos Santos Lourenço (2A.A), Ana Caroline frança (2A.A), Felipe lago reis (2A.A), Bianca Lopes dos Santos (2A.A), Kauana vitória Fonseca prandi(2A.A)</td>
-                                    <td class="p-4">Vivian de Oliveira Lima</td>
-                                </tr>
-                                <tr class="border-b">
-                                    <td class="p-4">IFSP-MTO</td>
-                                    <td class="p-4">27.Por que a Lua afeta o estado do mar</td>
-                                    <td class="p-4">-Lavinnya pontes camargo, -Enzo Henrique Lino de Oliveira, -Ryan luiz da silva, -Miguel otavio dos santos biffi, -Olavo petinatti fernandes de abreu</td>
-                                    <td class="p-4">Leandro Vieira</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+        <section id="grupos" class="py-20 bg-gray-100">
+             <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Grupos por Temas</h2>
+                <div class="overflow-x-auto bg-white p-6 rounded-lg shadow-lg">
+                    <table class="w-full text-left">
+                        <thead class="bg-gray-100">
+                            <tr>
+                                <th class="p-4 font-semibold">Escola</th>
+                                <th class="p-4 font-semibold">Tema do Projeto</th>
+                                <th class="p-4 font-semibold">Integrantes</th>
+                                <th class="p-4 font-semibold">Orientador(a)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">1.0 Mar que Nos Forma: ancestralidade africana e o sagrado das águas;</td>
+                                <td class="p-4">Isabella Calegari, Raul Militão, Maria Letícia Pires, Sophia Rebeca, Lucas Henrique dos Santos</td>
+                                <td class="p-4">Jonatan dos Santos Donato Alves</td>
+                            </tr>
+                            <tr class="border-b bg-gray-50">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">2.pH dos Oceanos e Acidificação Marinha - O Papel da Química no Clima;</td>
+                                <td class="p-4">Ana Alice Angeloni, Giovana Bessi, Heloísa Fincolo, Rafaella Azevedo e Richard Almeida</td>
+                                <td class="p-4">João Pedro Bueno de Oliveira</td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">3. Microplásticos Invisíveis - Investigando Produtos de Higiene e seu Caminho até o Oceano;</td>
+                                <td class="p-4">Guilherme Henrique Chiuchi, Leonardo Henrique Leite, Letícia Cunha Oliveira, Richard Almeida Ferreira</td>
+                                <td class="p-4">João Pedro Bueno de Oliveira</td>
+                            </tr>
+                            <tr class="border-b bg-gray-50">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">4.Gases estufa e seus efeitos na vida dos oceanos;</td>
+                                <td class="p-4">Laura Bergamim Cinel, Beatriz Gevezier, Maria Eduarda Oliveira Pio, Matheus Paviani e Gabriel Agusto Alves.</td>
+                                <td class="p-4">Eliziane Carla Scariot</td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">5.Detetive ambiental: Investigando micropartículas de pneu em nossas águas;</td>
+                                <td class="p-4">Bianca vitória Alves dos Santos, Isabelly Gutierres, Sophia pires, Amanda Nascimento, Noemy gevezier</td>
+                                <td class="p-4">Carlos Eduardo Crestani</td>
+                            </tr>
+                            <tr class="border-b bg-gray-50">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">6.Salgado como o mar- o custo invisível do nosso consumo;</td>
+                                <td class="p-4">Ester Gomes, Jonathan das Neves, Larissa B Santos</td>
+                                <td class="p-4">Glaucia Santos Vieira</td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">7.Bioluminescência: a luz misteriosa dos microrganismos marinhos;</td>
+                                <td class="p-4">Mariana de Oliveira, Matheus Travensolo, Antonia Gabriela Barbosa, Lavinia Viale Silva, Lorena Tayrine de Sousa, Maria Fernanda Miguel Barboza, Marielly Edwiges</td>
+                                <td class="p-4">Caroline Pigatto De Nardi</td>
+                            </tr>
+                            <tr class="border-b bg-gray-50">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">8. Energia que vem das ondas: o mar como fonte de futuro sustentável;</td>
+                                <td class="p-4">Vinicius de Souza Chiozzini, Luiz Felipe Pereira Carmo, Luan Felipe, Gabriel Santana Ferreira, Diogo Ferreira Silva</td>
+                                <td class="p-4">Filipe Camargo, Dalmatti Alves Lima</td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">9.Aromas do Oceano: Destilação de Óleos de Algas Marinhas;</td>
+                                <td class="p-4">Adrian Hendrick, Agata Silvério de Lucca Silva, Igor de Melo frauches, Isabelle Moratta, Maria Julia Bernasconi</td>
+                                <td class="p-4">Jane Karla de Faria Borges Machado</td>
+                            </tr>
+                            <tr class="border-b bg-gray-50">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">10.Maremotriz: Energia das Marés;</td>
+                                <td class="p-4">Gabrielly Teixeira De Sousa, Geovana Carvalo De Andrade, Geovana Schmidt Leite, Guilherme Aparecido Maschiari Vilela, Maria Clara Da Silva</td>
+                                <td class="p-4">Carla Yuri Kisen</td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">13.Crise do Neoliberalismo e Desequilíbrio Ambiental;</td>
+                                <td class="p-4">Heloiza Forcarelli dos Santos, Isabela Zanella Pereira, João Henrique Souza Santos, Natanael F. S. do Carmo, Vytor hugo Alves de Jesus</td>
+                                <td class="p-4">Antonio Marcos Martins</td>
+                            </tr>
+                            <tr class="border-b bg-gray-50">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">14. Naufrágios: tesouros no fundo do mar</td>
+                                <td class="p-4">Agata Moreira, Leonardo Leite, Maria Duarte, Miguel Alixame, Milla Fernandes e Maria Vitoria de Souza</td>
+                                <td class="p-4">Yuri Tejo Araújo</td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">16.Do Mar ao Laboratório: Explorando os Tesouros da Biorrefinaria Marinha;</td>
+                                <td class="p-4">Manuela Calabres França, Isabelly Cristine Rodrigues de Souza, Giovana Cristina da Silva, Maria Eduarda Henrique de Campos, Gabriel Mora de Souza</td>
+                                <td class="p-4">Daniela Remonatto</td>
+                            </tr>
+                            <tr class="border-b bg-gray-50">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">17.Biorremediação de áreas contaminadas com petróleo;</td>
+                                <td class="p-4">Pablo Tito Lepre da Silva, Rafaela Machado Vieira, Júlia França Santos, Eduardo Mattos Barboza, Ana Laura Rebelatti</td>
+                                <td class="p-4">Daniela Remonatto</td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">18. Economia Azul em Risco: Como a Poluição Oceânica Afeta Setores Econômicos;</td>
+                                <td class="p-4">Leonardo schiabeli, Isabella Vicente, isabelly viscardi, Pedro wetterich e Victória Micaela</td>
+                                <td class="p-4">Rodrigo dos Santos Silva</td>
+                            </tr>
+                            <tr class="border-b bg-gray-50">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">19. Quanto plástico vai parar no mar? Modelagem e projeções;</td>
+                                <td class="p-4">Mariany Victoria Jolli, Pedro Henrique Lopes Gabriely, Gabrielly Voltolini Germano e Igor Ferreira Maester</td>
+                                <td class="p-4">Ana Paula Mazzini Lima</td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">21.Água mole, pedra dura, tanto bate até que fura:</td>
+                                <td class="p-4">Matheus Bossini Marcondes dos Santos, Alexandre Lima Rossini, Alan Duarte Lobianco Júnior, Fernanda Fortunato, Caren Nascimento</td>
+                                <td class="p-4">Deysiele Oliveira Alves</td>
+                            </tr>
+                            <tr class="border-b bg-gray-50">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">23.Empreendedorismo Alimentar em Comunidades Pesqueiras</td>
+                                <td class="p-4">Pedro Gomes Moraes Neto, Breno Augusto da Mota, Leonardo Pereira Cândido, Eduardo Francisco André Barbosa Chrispim, Guilherme Venceslau de Melo</td>
+                                <td class="p-4">Juliana Infante</td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">25.Fitoplancton: O Verdadeiro Pulmão do Mundo (Sem Nem Ter Folha!);</td>
+                                <td class="p-4">Bryan dos Santos Gonzaga, Maria Julia Pinheiro Di Santo, Gabrie maciel, Felipe Figueira, Isabela Soares De Souza</td>
+                                <td class="p-4">Vivian de Oliveira Lima</td>
+                            </tr>
+                            <tr class="border-b bg-gray-50">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">26.GPS das Baleias, iFood dos Plânctons: Conheça as Correntes Maritimas.</td>
+                                <td class="p-4">Ana Maria dos Santos Lourenço (2A.A), Ana Caroline frança (2A.A), Felipe lago reis (2A.A), Bianca Lopes dos Santos (2A.A), Kauana vitória Fonseca prandi(2A.A)</td>
+                                <td class="p-4">Vivian de Oliveira Lima</td>
+                            </tr>
+                            <tr class="border-b">
+                                <td class="p-4">IFSP-MTO</td>
+                                <td class="p-4">27.Por que a Lua afeta o estado do mar</td>
+                                <td class="p-4">-Lavinnya pontes camargo, -Enzo Henrique Lino de Oliveira, -Ryan luiz da silva, -Miguel otavio dos santos biffi, -Olavo petinatti fernandes de abreu</td>
+                                <td class="p-4">Leandro Vieira</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
 
-                  <!-- Seção Inscrição -->
-        <section id="inscricao" class="py-20 bg-gray-100">
+        <section id="inscricao" class="py-20">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl font-bold mb-4">Faça sua Inscrição</h2>
                 <p class="max-w-2xl mx-auto mb-8">As inscrições estão abertas! Garanta a participação da sua equipe na 10ª Feira de Ciências, Arte e Cultura. Clique no botão abaixo para acessar o formulário de inscrição.</p>
@@ -261,7 +263,6 @@
             </div>
         </section>
                 
-                <!-- Seção Modelo do Resumo -->
         <section id="modelo-resumo" class="py-20 bg-gray-100">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl font-bold mb-4">Modelo do Resumo</h2>
@@ -279,8 +280,7 @@
             </div>
         </section>
 
-        <!-- Seção Calendário -->
-        <section id="calendario" class="py-20 bg-gray-100">
+        <section id="calendario" class="py-20">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl font-bold text-center mb-12">Cronograma Oficial</h2>
                 <div class="overflow-x-auto bg-white p-6 rounded-lg shadow-lg">
@@ -330,28 +330,27 @@
             </div>
         </section>
 
-        <!-- Seção Acervo -->
-        <section id="acervo" class="py-20">
+        <section id="acervo" class="py-20 bg-gray-100">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl font-bold mb-4">Nossa História</h2>
                 <p class="max-w-2xl mx-auto mb-8">Estamos coletando materiais das edições anteriores para construir nosso acervo. Em breve, você poderá explorar os projetos que marcaram a história da nossa feira!</p>
                 <div class="grid md:grid-cols-3 gap-8">
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img src="https://placehold.co/600x400/34D399/FFFFFF?text=Edição+2023" alt="Foto da edição anterior 1" class="w-full h-48 object-cover">
+                        <img src="https://placehold.co/600x400/34D399/FFFFFF?text=Edição+2024" alt="Foto da edição anterior 1" class="w-full h-48 object-cover">
                         <div class="p-6">
                             <h3 class="font-bold text-xl mb-2">Projetos de Destaque</h3>
                             <p class="text-gray-600">Relembre os trabalhos inovadores.</p>
                         </div>
                     </div>
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Edição+2022" alt="Foto da edição anterior 2" class="w-full h-48 object-cover">
+                        <img src="https://placehold.co/600x400/3B82F6/FFFFFF?text=Edição+2023" alt="Foto da edição anterior 2" class="w-full h-48 object-cover">
                         <div class="p-6">
                             <h3 class="font-bold text-xl mb-2">Momentos Marcantes</h3>
                             <p class="text-gray-600">Veja as fotos da comunidade escolar.</p>
                         </div>
                     </div>
                     <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                        <img src="https://placehold.co/600x400/F59E0B/FFFFFF?text=Edição+2021" alt="Foto da edição anterior 3" class="w-full h-48 object-cover">
+                        <img src="https://placehold.co/600x400/F59E0B/FFFFFF?text=Edição+2022" alt="Foto da edição anterior 3" class="w-full h-48 object-cover">
                         <div class="p-6">
                             <h3 class="font-bold text-xl mb-2">Cerimônias e Premiações</h3>
                             <p class="text-gray-600">Celebre as conquistas dos nossos alunos.</p>
@@ -361,16 +360,14 @@
             </div>
         </section>
 
-        <!-- Seção Premiação -->
-        <section id="premiacao" class="py-20 bg-gray-100">
+        <section id="premiacao" class="py-20">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl font-bold mb-4">Premiação</h2>
                 <p class="max-w-3xl mx-auto">Os melhores trabalhos serão reconhecidos e terão a oportunidade de alçar voos ainda maiores. A premiação principal inclui a <strong>inscrição na FEBRACE</strong> (Feira Brasileira de Ciências e Engenharia), uma vitrine nacional para jovens talentos.</p>
             </div>
         </section>
 
-        <!-- Seção Contato -->
-        <section id="contato" class="py-20">
+        <section id="contato" class="py-20 bg-gray-100">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl font-bold text-center mb-12">Entre em Contato</h2>
                 <div class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
