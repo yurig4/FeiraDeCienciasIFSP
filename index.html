@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11ª Feira de Ciências, Arte e Cultura - IFSP Matão (2026)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .hero-bg {
+            background: linear-gradient(rgba(11, 158, 85, 0.85), rgba(15, 23, 42, 0.90)), url('2026/WhatsApp Image 2026-08-11 at 20.32.35.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .nav-link.active {
+            font-weight: 700;
+            color: #10B981;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#home" class="text-2xl font-bold text-green-700 flex items-center gap-2">
+                <span>IFSP Matão</span>
+                <span class="text-xs bg-green-100 text-green-800 font-semibold px-2.5 py-0.5 rounded-full border border-green-300">2026</span>
+            </a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#home" class="nav-link text-gray-600 hover:text-green-700">Home</a>
+                <a href="#edital" class="nav-link text-gray-600 hover:text-green-700">Normas & Edital</a>
+                <a href="#grupos" class="nav-link text-gray-600 hover:text-green-700">Projetos</a>
+                <a href="#inscricao" class="nav-link text-gray-600 hover:text-green-700">Inscrição</a>
+                <a href="#modelos" class="nav-link text-gray-600 hover:text-green-700">Modelos</a>
+                <a href="#calendario" class="nav-link text-gray-600 hover:text-green-700">Cronograma</a>
+                <a href="#acervo" class="nav-link text-gray-600 hover:text-green-700">Acervo</a>
+                <a href="#contato" class="nav-link text-gray-600 hover:text-green-700">Contato</a>
+                <a href="2025.html" class="px-3.5 py-1.5 bg-amber-500 hover:bg-amber-600 text-white rounded-lg text-sm font-semibold transition-all shadow-sm flex items-center gap-1.5">
+                    <span>📂 Edição 2025</span>
+                </a>
+            </div>
+            <button id="mobile-menu-button" class="md:hidden flex items-center">
+                <svg class="w-6 h-6 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 bg-white border-t border-gray-100">
+            <a href="#home" class="block py-2 text-gray-600 hover:text-green-700">Home</a>
+            <a href="#edital" class="block py-2 text-gray-600 hover:text-green-700">Normas & Edital</a>
+            <a href="#grupos" class="block py-2 text-gray-600 hover:text-green-700">Projetos</a>
+            <a href="#inscricao" class="block py-2 text-gray-600 hover:text-green-700">Inscrição</a>
+            <a href="#modelos" class="block py-2 text-gray-600 hover:text-green-700">Modelos</a>
+            <a href="#calendario" class="block py-2 text-gray-600 hover:text-green-700">Cronograma</a>
+            <a href="#acervo" class="block py-2 text-gray-600 hover:text-green-700">Acervo</a>
+            <a href="#contato" class="block py-2 text-gray-600 hover:text-green-700">Contato</a>
+            <a href="2025.html" class="block mt-2 py-2 px-4 bg-amber-500 text-white text-center rounded-md font-semibold">📂 Visitar Edição 2025</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero-bg text-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <span class="inline-block bg-purple-600 text-purple-100 font-semibold px-4 py-1.5 rounded-full text-sm mb-4 shadow-lg tracking-wide uppercase">
+                    23ª Semana Nacional de Ciência e Tecnologia (SNCT)
+                </span>
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-3 tracking-tight">11ª Feira de Ciências, Arte e Cultura</h1>
+                <p class="text-2xl md:text-3xl font-semibold text-emerald-300 mb-6 italic">"CIÊNCIA DELAS: Meninas e Mulheres nas Ciências"</p>
+                
+                <p class="text-base md:text-lg max-w-3xl mx-auto mb-8 text-gray-100 leading-relaxed">
+                    A 11ª edição reafirma o compromisso do IFSP Matão com a popularização da ciência e o protagonismo estudantil. 
+                    Homenageamos as contribuições femininas históricas e contemporâneas nas Ciências Humanas, Sociais, Artes, Linguagens, Matemática e Ciências da Natureza.
+                </p>
+
+                <div class="mb-10">
+                    <img src="2026/WhatsApp Image 2026-08-11 at 20.32.35.jpeg" alt="Cartaz Oficial 11ª Feira de Ciências 2026" class="mx-auto w-full max-w-3xl rounded-xl shadow-2xl border-4 border-white/20">
+                </div>
+
+                <div class="flex flex-wrap justify-center gap-4 mb-10">
+                    <a href="https://forms.gle/5qaEGAAghnQ3Bu2Q7" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-3.5 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg flex items-center gap-2">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z"></path></svg>
+                        Inscrever Trabalho Agora
+                    </a>
+                    <a href="2025.html" class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-3.5 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg flex items-center gap-2">
+                        <span>📂 Ver Edição Anterior (2025)</span>
+                    </a>
+                </div>
+
+                <!-- INFO & COUNTDOWN -->
+                <div class="bg-white/10 backdrop-blur-md p-8 rounded-2xl max-w-5xl mx-auto border border-white/20 grid md:grid-cols-2 gap-8 text-left">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4 flex items-center gap-2 text-white">
+                            <span>ℹ️</span> Informações Gerais (2026)
+                        </h3>
+                        <ul class="space-y-3 text-gray-100 text-sm md:text-base">
+                            <li><strong>Público-alvo:</strong> Alunos do 9º ano do ensino fundamental e dos 3 anos do ensino médio (IFSP Matão e demais escolas).</li>
+                            <li><strong>Equipes:</strong> 5 estudantes + 1 orientador (e coorientador opcional).</li>
+                            <li><strong>Requisitos Temáticos:</strong> Vínculo com ao menos 2 ODS da ONU e homenagem a uma mulher cientista/pesquisadora.</li>
+                            <li><strong>Taxa:</strong> Evento 100% Gratuito.</li>
+                        </ul>
+                    </div>
+                    <div class="countdown" data-date="2026-10-28T07:00:00">
+                        <h3 class="text-2xl font-bold mb-4 text-center text-white">Contagem Regressiva para a Feira</h3>
+                        <div class="grid grid-cols-4 gap-3 text-center">
+                            <div class="bg-white/20 p-3.5 rounded-xl backdrop-blur-sm border border-white/10">
+                                <div id="days" class="text-3xl md:text-4xl font-extrabold text-emerald-300">00</div>
+                                <div class="mt-1 text-xs uppercase tracking-wider text-gray-200">Dias</div>
+                            </div>
+                            <div class="bg-white/20 p-3.5 rounded-xl backdrop-blur-sm border border-white/10">
+                                <div id="hours" class="text-3xl md:text-4xl font-extrabold text-emerald-300">00</div>
+                                <div class="mt-1 text-xs uppercase tracking-wider text-gray-200">Horas</div>
+                            </div>
+                            <div class="bg-white/20 p-3.5 rounded-xl backdrop-blur-sm border border-white/10">
+                                <div id="minutes" class="text-3xl md:text-4xl font-extrabold text-emerald-300">00</div>
+                                <div class="mt-1 text-xs uppercase tracking-wider text-gray-200">Minutos</div>
+                            </div>
+                            <div class="bg-white/20 p-3.5 rounded-xl backdrop-blur-sm border border-white/10">
+                                <div id="seconds" class="text-3xl md:text-4xl font-extrabold text-emerald-300">00</div>
+                                <div class="mt-1 text-xs uppercase tracking-wider text-gray-200">Segundos</div>
+                            </div>
+                        </div>
+                        <p class="text-center text-xs text-gray-200 mt-4">28 a 30 de Outubro de 2026 — IFSP Matão</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NORMAS & EDITAL -->
+        <section id="edital" class="py-20 bg-white">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-gray-900">Normas & Regulamento 2026</h2>
+                <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Conheça as diretrizes para participar da 11ª Feira de Ciências, Arte e Cultura do IFSP Matão.</p>
+                
+                <div class="grid md:grid-cols-2 gap-8 mb-12">
+                    <div class="bg-purple-50 p-6 rounded-2xl border border-purple-100 shadow-sm">
+                        <h3 class="text-xl font-bold text-purple-900 mb-3 flex items-center gap-2">
+                            <span>👩‍🔬</span> Diretrizes do Tema Central
+                        </h3>
+                        <ul class="space-y-2 text-purple-950 text-sm">
+                            <li>• <strong>Tema:</strong> <em>Ciência Delas (Meninas e Mulheres nas Ciências)</em>.</li>
+                            <li>• O projeto deve homenagear ou fundamentar-se no trabalho de pelo menos uma mulher cientista, pesquisadora ou intelectual.</li>
+                            <li>• Deve apresentar relação clara com ao menos <strong>2 Objetivos de Desenvolvimento Sustentável (ODS/ONU)</strong>.</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-emerald-50 p-6 rounded-2xl border border-emerald-100 shadow-sm">
+                        <h3 class="text-xl font-bold text-emerald-900 mb-3 flex items-center gap-2">
+                            <span>👥</span> Equipes e Categorias
+                        </h3>
+                        <ul class="space-y-2 text-emerald-950 text-sm">
+                            <li>• <strong>Composição:</strong> Até 5 estudantes por grupo + 1 professor(a) orientador(a).</li>
+                            <li>• <strong>Elegibilidade:</strong> Estudantes do 9º ano EF e do 1º ao 3º ano do Ensino Médio.</li>
+                            <li>• <strong>Áreas:</strong> CNT (Natureza), LT (Linguagens), MT (Matemática) e CHST (Humanas/Sociais).</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="2026/flyer_feira_ciencias_link_clicavel(1).pdf" download class="inline-flex items-center gap-2 bg-purple-700 hover:bg-purple-800 text-white font-bold py-3.5 px-8 rounded-xl transition-all shadow-md hover:shadow-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        Baixar Flyer Informativo com Links (PDF)
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETOS INCRITOS -->
+        <section id="grupos" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-3">Projetos Inscritos (2026)</h2>
+                <p class="text-center text-gray-600 mb-10">Confira a lista dos trabalhos e homenagens científicas confirmadas para a 11ª edição.</p>
+                
+                <div class="overflow-x-auto bg-white rounded-xl shadow-lg border border-gray-200">
+                    <table class="w-full text-left text-sm">
+                        <thead class="bg-green-700 text-white uppercase text-xs tracking-wider">
+                            <tr>
+                                <th class="p-4">Escola</th>
+                                <th class="p-4">Tema do Projeto / Cientista Homenageada</th>
+                                <th class="p-4">Integrantes</th>
+                                <th class="p-4">Orientador(a)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Ficou fora da geladeira: ciência ou sorte? Mary Engle Pennington e a ciência dos alimentos seguros</td>
+                                <td class="p-4 text-gray-600">Gabriella Pastori, Lorena Lourenço dos Santos, Luana Barroso Alvares, Manuela de Moraes Gomes, Sofia Barbosa</td>
+                                <td class="p-4 text-gray-800">Bruna Drielen Ferreira</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">EcoAçaí: uso de resíduos amazônicos na produção de carvão ativado magnético para tratamento de água</td>
+                                <td class="p-4 text-gray-600">Felipe Amaral de Freitas, Lara Lopes, Bruno Galvão Damiani, Leonardo Cristiano Moutinho, Matheus Brumatti Joaquim</td>
+                                <td class="p-4 text-gray-800">Carla Yuri Kisen</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Do Leite ao Iogurte: A Ciência por Trás da Transformação</td>
+                                <td class="p-4 text-gray-600">Allana Tayane Silva, Caroline Oliveira Dias, Gabriela Mendonça, Larissa de Souza Reis, Marina Malagoli Rodrigues Lopes</td>
+                                <td class="p-4 text-gray-800">Caroline Pigatto De Nardi</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Ágar-ágar: da cozinha ao laboratório</td>
+                                <td class="p-4 text-gray-600">Lara Teixeira de Souza, Thauany Forcel Campos, Ana Beatriz do Amaral Miranda, Larissa de Matos Ilario, Adrieli Sabrina da Silva</td>
+                                <td class="p-4 text-gray-800">Caroline Pigatto De Nardi</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Quem somos nós?: Retratos simbólicos da singularidade humana</td>
+                                <td class="p-4 text-gray-600">Gabriele Melo, Sofia Falconi, Pedro Mancini, Livia Guimarães, Maria Júlia Toledo</td>
+                                <td class="p-4 text-gray-800">Chris Tragante</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Mulheres do século XX na ciência dos alimentos</td>
+                                <td class="p-4 text-gray-600">Heloa Vitoria Sampaio, Maria Eduarda Arroyo, Isabela Gonçalves Agostini, Maria Júlia Guirra, Guilherme Maschiari Vilela</td>
+                                <td class="p-4 text-gray-800">Claudia Regina Cançado Sgorlon Tininis</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Do Álbum da Copa ao Meio Ambiente: resíduos pequenos, grandes impactos</td>
+                                <td class="p-4 text-gray-600">Íris Eduarda Forcel Roncada, Júlia Gabrieli Bessi, Lara Martins Cacavelli, Nauani Araujo Ferreira, Sarah Beatriz Doria Alves</td>
+                                <td class="p-4 text-gray-800">Daniara Cristina Fernandes</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">A Ciência da Água: As Descobertas de Márcia Barbosa</td>
+                                <td class="p-4 text-gray-600">Adrian Heinrick de Souza Rodrigues, Gustavo Moratta da Silva, Matheus Paviani, Vitória Oliveira Muniz, Wilton Silva Rodrigues Júnior</td>
+                                <td class="p-4 text-gray-800">Daniela Cristina Selmini</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Influência de microrganismos eficientes na germinação de plantas nativas do cerrado</td>
+                                <td class="p-4 text-gray-600">Gabriela Dias, Manuela Setin Cacimiliano, Samarah Hikari Mantovani Nagata, Richard Ueno, Maria Julia de Almeida</td>
+                                <td class="p-4 text-gray-800">Eliziane Carla Scariot</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Metais da Vida: a Química Bioinorgânica da Professora Ana Maria da Costa Ferreira e o Papel das Mulheres na Ciência Brasileira</td>
+                                <td class="p-4 text-gray-600">Maria Eduarda dos Santos Moura, Ana Júlia da Silva, Livia Messi Simis, Maria Eduarda Piedadi Scardoelli, Laine Souza</td>
+                                <td class="p-4 text-gray-800">Filipe Camargo Dalmatti Alves Lima</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">O Magnetismo na Escala Atômica: A Evolução do Nanomagnetismo no Brasil e o Pioneirismo da Professora Helena Maria Petrilli</td>
+                                <td class="p-4 text-gray-600">Júlia Vitória Castro, Samuel Arjona Teixeira de Carvalho, Nivia Thaís do Prado Santos, Angelina Duarte Bido, Ruan Felipe Ribeiro Rocha</td>
+                                <td class="p-4 text-gray-800">Filipe Camargo Dalmatti Alves Lima</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Mulheres em Camadas: a Química dos Materiais Lamelares e o Legado Científico da Professora Vera Regina Leopoldo Constantino</td>
+                                <td class="p-4 text-gray-600">Maria Eduarda Cuzin de Oliveira, Mariana Aparecida de Andrade, Nicolly Lorena dos Anjos, Isabela Silva Barreto, Miguel Baldoino Araujo</td>
+                                <td class="p-4 text-gray-800">Filipe Camargo Dalmatti Alves Lima</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Do Lixo ao Luxo: Kombucha Sustentável como Alternativa de Baixo Custo</td>
+                                <td class="p-4 text-gray-600">Nicolas Kenji Sugahara, Sthefany Rodrigues Dal Rovere, Maria Eduarda Alberice, Nicoly Gavioli Marinho, Gabriel Maciel Cyniro de Carvalho</td>
+                                <td class="p-4 text-gray-800">Jane Karla de Faria Borges Machado</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Da Casca ao Pote: Ciência, Sustentabilidade e o Aproveitamento Integral dos Alimentos</td>
+                                <td class="p-4 text-gray-600">Maria Eduarda dos Santos, Isabelle Nataly Pires da Silva, Cauã Correria dos Santos, Otavio Venâncio Ferreira da Silva, Guilherme Venceslau de Melo</td>
+                                <td class="p-4 text-gray-800">João Pedro Bueno de Oliveira</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Maria Firmina dos Reis e a produção do conhecimento negro no Brasil</td>
+                                <td class="p-4 text-gray-600">Jaqueline de Souza Machado, Livia Maria Pereira, Laura Abrantes Lobão, Ana Lívia dos Santos, Heloísa Caroline Teodoro Marcelino</td>
+                                <td class="p-4 text-gray-800">Jonatan dos Santos Donato Alves</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Centenário da visita de Marie Curie ao Brasil: 1926 - 2026</td>
+                                <td class="p-4 text-gray-600">Sophia Gabrielle Alves da Silva, Mirela Zanoni Gimenez, Lucas Eduardo Negri, Leonardo Miguel de Souza Trindade, Edvaldo Junior Silva Araújo</td>
+                                <td class="p-4 text-gray-800">José Antonio Maruyama</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">De origem humilde à pesquisadora internacional: a saga da araraquarense Heloisa Helena Barretto de Toledo</td>
+                                <td class="p-4 text-gray-600">Isabelly Rebeca de Oliveira, Jhenifer Lopes, Maria Júlia Miquelino, Kauane Vitória Nunes da Silva, Maria Emanuely Schimicoski</td>
+                                <td class="p-4 text-gray-800">Juliana Barretto de Toledo</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Mulheres na Ciência: Ana Primavesi e a Revolução Agroecológica</td>
+                                <td class="p-4 text-gray-600">Maria Eduarda Janini, Yasmim de Paula Silva, Yasmim Vitória Vieira Miranda, Vitória Luciana Martinelli, Eduardo Francisco Barbosa Andre Chrispim</td>
+                                <td class="p-4 text-gray-800">Leandro Vieira</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Representação da Cultura Indígena no Cotidiano</td>
+                                <td class="p-4 text-gray-600">Maria Candida Ruiz, Vitória Muniz, Gabrielly Voltolini, Sal Fisher Paiva, Hideki Cael Tavares da Silva</td>
+                                <td class="p-4 text-gray-800">Valquíria Tenório</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Ao infinito e além: Mulheres na astronomia</td>
+                                <td class="p-4 text-gray-600">Byanka Nayana Bordin, Evelyn Nicoly da Mota Queiroz, Ricardo Luís Felipe Filho, Vivian Isabella Vomiero Marcatto, Leticia Aparecida Ferreira de Souza</td>
+                                <td class="p-4 text-gray-800">Valquíria Tenório</td>
+                            </tr>
+                            <tr class="hover:bg-gray-50">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Bactérias que Alimentam o Mundo: A Revolução Verde da Agricultura Sustentável</td>
+                                <td class="p-4 text-gray-600">Cecília Calegari da Silva, Evellyn Moreira Rosa, Gabriela Rodrigues Morais, Igor Ferreira Master, Otávio Augusto Sena Padilha</td>
+                                <td class="p-4 text-gray-800">Vívian de Oliveira Lima</td>
+                            </tr>
+                            <tr class="bg-gray-50 hover:bg-gray-100">
+                                <td class="p-4 font-semibold text-gray-700">IFSP-MTO</td>
+                                <td class="p-4 font-medium text-purple-900">Reconstruindo Vidas: O Papel das Mulheres Brasileiras na Medicina Regenerativa e no tratamento do câncer</td>
+                                <td class="p-4 text-gray-600">Jenifer Santos Luiz, João Daniel Gonçalves Ferreira, Vitor Gabriel Veríssimo da Silva, Yasmin Maia de Morais, Pedro Zoppi</td>
+                                <td class="p-4 text-gray-800">Vívian de Oliveira Lima</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- INSCRIÇÃO -->
+        <section id="inscricao" class="py-20 bg-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4 text-gray-900">Submissão de Trabalhos (2026)</h2>
+                <p class="max-w-2xl mx-auto text-gray-600 mb-8">
+                    Submeta o resumo da sua equipe para a 11ª Feira de Ciências, Arte e Cultura do IFSP Matão. 
+                    Certifique-se de seguir o modelo de resumo oficial disponível abaixo.
+                </p>
+                <a href="https://forms.gle/5qaEGAAghnQ3Bu2Q7" target="_blank" class="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-10 rounded-xl transition-all transform hover:scale-105 shadow-xl text-lg">
+                    <span>📝 Acessar Formulário de Inscrição</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- MODELOS DE RESUMO E PAINEL -->
+        <section id="modelos" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Modelos Oficiais de Submissão</h2>
+                
+                <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- MODELO RESUMO -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-200 text-center flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-green-100 text-green-700 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                                📄
+                            </div>
+                            <h3 class="text-2xl font-bold mb-3">Modelo de Resumo (2026)</h3>
+                            <p class="text-gray-600 text-sm mb-6">
+                                Utilize o template oficial em formato Word para elaboração do seu resumo expandido. 
+                                Inclui a indicação das <strong>Áreas</strong>, <strong>ODS da ONU</strong> e a <strong>Mulher Cientista Homenageada</strong>.
+                            </p>
+                        </div>
+                        <a href="2026/Template_Resumo_Feira_2026.docx" download class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3.5 px-6 rounded-xl transition-transform transform hover:scale-105 shadow-md inline-block">
+                            Baixar Modelo Resumo (.docx)
+                        </a>
+                    </div>
+
+                    <!-- MODELO PAINEL -->
+                    <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-200 text-center flex flex-col justify-between">
+                        <div>
+                            <div class="w-16 h-16 bg-purple-100 text-purple-700 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                                🖼️
+                            </div>
+                            <h3 class="text-2xl font-bold mb-3">Modelo do Painel</h3>
+                            <p class="text-gray-600 text-sm mb-6">
+                                O modelo padronizado de painel/banner para as apresentações durante a feira em Outubro será disponibilizado em breve.
+                            </p>
+                        </div>
+                        <button disabled class="w-full bg-gray-300 text-gray-600 font-bold py-3.5 px-6 rounded-xl cursor-not-allowed">
+                            Modelo do Painel (Em Breve)
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CRONOGRAMA -->
+        <section id="calendario" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-3">Cronograma Oficial (2026)</h2>
+                <p class="text-center text-gray-600 mb-12">Programação oficial dos dias da 11ª Feira de Ciências, Arte e Cultura (28 a 30 de Outubro de 2026).</p>
+
+                <div class="overflow-x-auto bg-white rounded-xl shadow-lg border border-gray-200 max-w-5xl mx-auto">
+                    <table class="w-full text-center">
+                        <thead class="bg-green-700 text-white">
+                            <tr>
+                                <th class="p-4 font-semibold">Horário</th>
+                                <th class="p-4 font-semibold">28/10/2026 (Quarta-feira)</th>
+                                <th class="p-4 font-semibold">29/10/2026 (Quinta-feira)</th>
+                                <th class="p-4 font-semibold">30/10/2026 (Sexta-feira)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200 text-sm">
+                            <tr>
+                                <td class="p-4 font-medium text-gray-600 bg-gray-50">07h00 – 12h00</td>
+                                <td class="p-4">Montagem dos estandes</td>
+                                <td class="p-4 text-gray-400">Sem atividade</td>
+                                <td class="p-4 font-medium text-emerald-800">Apresentação dos trabalhos</td>
+                            </tr>
+                            <tr class="bg-gray-50/50">
+                                <td class="p-4 font-medium text-gray-600 bg-gray-100">12h00 – 13h00</td>
+                                <td class="p-4 text-gray-500">Almoço</td>
+                                <td class="p-4 text-gray-500">Almoço</td>
+                                <td class="p-4 text-gray-500">Almoço</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-medium text-gray-600 bg-gray-50">13h00 – 17h00</td>
+                                <td class="p-4">Montagem dos estandes</td>
+                                <td class="p-4 font-medium text-emerald-800">Apresentação dos trabalhos</td>
+                                <td class="p-4">Desmontagem dos estandes</td>
+                            </tr>
+                            <tr class="bg-gray-50/50">
+                                <td class="p-4 font-medium text-gray-600 bg-gray-100">17h00 – 18h30</td>
+                                <td class="p-4 text-gray-500">Jantar</td>
+                                <td class="p-4 text-gray-500">Jantar</td>
+                                <td class="p-4">Arrumação das Salas</td>
+                            </tr>
+                            <tr>
+                                <td class="p-4 font-medium text-gray-600 bg-gray-50">18h30 – 20h30</td>
+                                <td class="p-4 font-bold text-purple-900 bg-purple-50">19h00: Abertura oficial e atração cultural</td>
+                                <td class="p-4 font-medium text-emerald-800">Apresentação dos trabalhos</td>
+                                <td class="p-4 text-gray-400">--</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACERVO E HISTÓRIA -->
+        <section id="acervo" class="py-20 bg-gray-100">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold mb-4">Nossa História & Acervo</h2>
+                <p class="max-w-3xl mx-auto text-gray-600 mb-10 leading-relaxed">
+                    O evento teve sua primeira edição em 2016, nascendo da necessidade de promover a iniciação científica e a integração escolar. 
+                    Desde sua origem, a feira é realizada em consonância com a Semana Nacional de Ciência e Tecnologia (SNCT), integrando o calendário nacional de popularização do conhecimento.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- CARD EDICAO 2025 -->
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-amber-200 flex flex-col justify-between hover:shadow-xl transition-all">
+                        <div class="relative">
+                            <img src="postercomlogo.jpg" alt="10ª Feira de Ciências (2025)" class="w-full h-48 object-cover object-top">
+                            <span class="absolute top-3 right-3 bg-amber-500 text-white font-bold px-3 py-1 rounded-full text-xs shadow-md">
+                                10ª Edição
+                            </span>
+                        </div>
+                        <div class="p-6 text-left flex-1 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-bold text-xl mb-2 text-gray-900">10ª Feira de Ciências (2025)</h3>
+                                <p class="text-gray-600 text-sm mb-4">Relembre os trabalhos e informações da 10ª edição sobre a Cultura Oceânica e sustentabilidade.</p>
+                            </div>
+                            <a href="2025.html" class="inline-block w-full text-center bg-amber-500 hover:bg-amber-600 text-white font-bold py-2.5 px-4 rounded-lg transition-colors">
+                                Visitar Acervo 2025 &rarr;
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- CARD HISTORICO -->
+                    <div class="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200 flex flex-col justify-between">
+                        <div class="bg-gradient-to-br from-green-500 to-emerald-700 h-48 flex items-center justify-center text-white text-5xl">
+                            🔬
+                        </div>
+                        <div class="p-6 text-left flex-1 flex flex-col justify-between">
+                            <div>
+                                <h3 class="font-bold text-xl mb-2 text-gray-900">Projetos de Destaque</h3>
+                                <p class="text-gray-600 text-sm mb-4">Relembre os trabalhos inovadores apresentados pelos nossos estudantes ao longo das edições.</p>
+                            </div>
+                            <span class="text-xs text-gray-400 font-semibold uppercase tracking-wider">Em breve mais galerias</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-bold text-center mb-12">Entre em Contato</h2>
+                <div class="max-w-lg mx-auto bg-gray-50 p-8 rounded-2xl shadow-md border border-gray-200">
+                    <p class="text-center text-gray-600 mb-4">Tem alguma dúvida? Envie uma mensagem para a comissão organizadora.</p>
+                    <p class="text-center font-semibold text-xl mb-2">
+                        <a href="mailto:feiradeciencias.mto@ifsp.edu.br" class="text-green-700 hover:underline">feiradeciencias.mto@ifsp.edu.br</a>
+                    </p>
+                    <p class="text-center text-xs text-gray-500">IFSP Campus Matão</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-white py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-lg font-semibold text-emerald-400 mb-1">11ª Feira de Ciências, Arte e Cultura</p>
+            <p class="text-sm text-gray-400 mb-6">&copy; 2026 IFSP Campus Matão. Todos os direitos reservados.</p>
+            
+            <p class="text-xs uppercase tracking-widest text-gray-400 mb-4 font-semibold">Apoio Institucional:</p>
+            <div class="flex justify-center items-center gap-6 flex-wrap">
+                <a href="http://cnpq.br/" target="_blank" class="bg-white p-2.5 rounded-lg shadow hover:opacity-90 transition">
+                    <img src="logo_CNPq.png" alt="Logo do CNPq" class="h-12 object-contain">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Menu Mobile
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Contagem Regressiva para 2026
+        const countdownElement = document.querySelector('.countdown');
+        if (countdownElement) {
+            const eventDate = new Date(countdownElement.dataset.date).getTime();
+
+            const updateCountdown = () => {
+                const now = new Date().getTime();
+                const distance = eventDate - now;
+
+                if (distance < 0) {
+                    clearInterval(interval);
+                    document.querySelector('.countdown').innerHTML = '<div class="text-2xl font-bold text-center text-emerald-300">O evento de 2026 começou!</div>';
+                    return;
+                }
+
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                document.getElementById('days').innerText = days.toString().padStart(2, '0');
+                document.getElementById('hours').innerText = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').innerText = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').innerText = seconds.toString().padStart(2, '0');
+            };
+
+            const interval = setInterval(updateCountdown, 1000);
+            updateCountdown();
+        }
+        
+        // Scroll Spy para Navegação
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 120) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
