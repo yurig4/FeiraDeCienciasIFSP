@@ -163,6 +163,10 @@
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                         Flyer Informativo (PDF)
                     </a>
+                    <a href="2026/Distribuição dos Trabalhos  e Instruções de Montagem na 11ª Feira de Ciências.pdf" download class="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-bold py-3.5 px-6 rounded-xl transition-all shadow-md hover:shadow-lg">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"></path></svg>
+                        Distribuição de Trabalhos & Salão (PDF)
+                    </a>
                     <a href="2026/Guia_Elaboracao_Painel_2026.pdf" target="_blank" class="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-3.5 px-6 rounded-xl transition-all shadow-md hover:shadow-lg">
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                         Guia de Painéis (PDF)
@@ -314,14 +318,18 @@
 
                 <!-- CONTROLES: BUSCA, FILTROS E DOWNLOAD -->
                 <div class="bg-white p-6 rounded-2xl shadow-md border border-gray-200 mb-8 space-y-4">
-                    <div class="flex flex-col md:flex-row gap-4 justify-between items-center">
-                        <div class="relative w-full md:w-96">
+                    <div class="flex flex-col lg:flex-row gap-4 justify-between items-center">
+                        <div class="relative w-full lg:w-96">
                             <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-gray-400">
                                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                             </span>
-                            <input type="text" id="project-search" placeholder="Buscar por tema, aluno, orientador ou escola..." class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-sm">
+                            <input type="text" id="project-search" placeholder="Buscar por tema, sala, aluno, orientador ou escola..." class="w-full pl-10 pr-4 py-2.5 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 text-sm">
                         </div>
-                        <div class="flex items-center gap-3 w-full md:w-auto justify-end">
+                        <div class="flex flex-wrap items-center gap-3 w-full lg:w-auto justify-end">
+                            <a href="2026/Distribuição dos Trabalhos  e Instruções de Montagem na 11ª Feira de Ciências.pdf" download class="inline-flex items-center gap-2 bg-amber-600 hover:bg-amber-700 text-white font-bold py-2.5 px-5 rounded-xl transition-all shadow-sm hover:shadow text-sm">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                                <span>Baixar Distribuição de Trabalhos e Salas (PDF)</span>
+                            </a>
                             <a href="2026/Grupos Feira 2026 - Projetos (site).pdf" target="_blank" class="inline-flex items-center gap-2 bg-purple-700 hover:bg-purple-800 text-white font-bold py-2.5 px-5 rounded-xl transition-all shadow-sm hover:shadow text-sm">
                                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
                                 <span>Baixar Relação Completa (PDF)</span>
@@ -333,9 +341,9 @@
                     <div class="flex flex-wrap gap-2 pt-2 border-t border-gray-100 items-center justify-between">
                         <div class="flex flex-wrap gap-2">
                             <button class="filter-btn px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all bg-emerald-600 text-white shadow" data-filter="all">Todos (55)</button>
-                            <button class="filter-btn px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all bg-white text-gray-700 hover:bg-gray-100 border border-gray-200" data-filter="segundo">2º Ano IFSP (22)</button>
+                            <button class="filter-btn px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all bg-white text-gray-700 hover:bg-gray-100 border border-gray-200" data-filter="segundo">2º Ano IFSP (21)</button>
                             <button class="filter-btn px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all bg-white text-gray-700 hover:bg-gray-100 border border-gray-200" data-filter="terceiro">3º Ano Integrador (22)</button>
-                            <button class="filter-btn px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all bg-white text-gray-700 hover:bg-gray-100 border border-gray-200" data-filter="mais-ciencia">Mais Ciência (5)</button>
+                            <button class="filter-btn px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all bg-white text-gray-700 hover:bg-gray-100 border border-gray-200" data-filter="mais-ciencia">Mais Ciência (6)</button>
                             <button class="filter-btn px-4 py-1.5 rounded-lg text-xs md:text-sm font-semibold transition-all bg-white text-gray-700 hover:bg-gray-100 border border-gray-200" data-filter="extensao">Extensão (6)</button>
                         </div>
                         <span id="project-count" class="text-xs font-semibold text-gray-500">Mostrando 55 de 55 projetos</span>
@@ -355,331 +363,331 @@
                         </thead>
                         <tbody id="projects-table-body" class="divide-y divide-gray-200">
 <tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Ficou fora da geladeira: ciência ou sorte? Mary Engle Pennington e a ciência dos alimentos seguros</p></td>
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-001 • Sala 103</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Ficou fora da geladeira: ciência ou sorte? Mary Engle Pennington e a ciência dos alimentos seguros</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Mary Engle Pennington</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Gabriella Pastori, Lorena Lourenço dos Santos, Luana Barroso Alvares, Manuela de Moraes Gomes, Sofia Barbosa</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Bruna Drielen Ferreira</td>
 </tr>
 <tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">EcoAçaí: uso de resíduos amazônicos na produção de carvão ativado magnético para tratamento de água</p></td>
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-002 • Sala 103</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">EcoAçaí: uso de resíduos amazônicos na produção de carvão ativado magnético para tratamento de água</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Clara Pandolfo</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Felipe Amaral de Freitas, Lara Lopes, Bruno Galvão Damiani, Leonardo Cristiano Moutinho, Matheus Brumatti Joaquim</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Carla Yuri Kisen</td>
 </tr>
 <tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Do Leite ao Iogurte: A Ciência por Trás da Transformação</p></td>
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-007 • Sala 106</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Do Leite ao Iogurte: A Ciência por Trás da Transformação</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Marcela Albuquerque Cavalcanti de Albuquerque</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Allana Tayane Silva, Caroline Oliveira Dias, Gabriela Mendonça, Larissa de Souza Reis, Marina Malagoli Rodrigues Lopes</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Caroline Pigatto De Nardi</td>
 </tr>
 <tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Ágar-ágar: da cozinha ao laboratório</p></td>
-    <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Lara Teixeira de Souza, Thauany Forcel Campos, Ana Beatriz do Amaral Miranda, Larissa de Matos Ilario, Adrieli Sabrina da Silva</td>
-    <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Caroline Pigatto De Nardi</td>
-</tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Quem somos nós?: Retratos simbólicos da singularidade humana</p></td>
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-003 • Sala 103</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Quem somos nós?: Retratos simbólicos da singularidade humana</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Frida Kahlo</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Gabriele Melo, Sofia Falconi, Pedro Mancini, Livia Guimarães, Maria Júlia Toledo</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Chris Tragante</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Mulheres do século XX na ciência dos alimentos</p></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-004 • Sala 105</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Mulheres do século XX na ciência dos alimentos</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageadas: Iracema de Oliveira Moraes; Eloísa E. Correa Garcia; Gláucia M. Pastore; Delia Rodriguez Amaya; Rosana Goldbeck; Ana Carla K. Sato; Mariangela Hungria; Nilda F. Ferreira Soares</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Heloa Vitoria Sampaio, Maria Eduarda Arroyo, Isabela Gonçalves Agostini, Maria Júlia Guirra, Guilherme Maschiari Vilela</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Claudia Regina Cançado Sgorlon Tininis</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Do Álbum da Copa ao Meio Ambiente: resíduos pequenos, grandes impactos</p></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-005 • Sala 105</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Do Álbum da Copa ao Meio Ambiente: resíduos pequenos, grandes impactos</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Denise Alves Fungaro</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Íris Eduarda Forcel Roncada, Júlia Gabrieli Bessi, Lara Martins Cacavelli, Nauani Araujo Ferreira, Sarah Beatriz Doria Alves</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Daniara Cristina Fernandes</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">A Ciência da Água: As Descobertas de Márcia Barbosa</p></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-006 • Sala 105</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">A Ciência da Água: As Descobertas de Márcia Barbosa</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Márcia Cristina Bernarde Barbosa</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Adrian Heinrick de Souza Rodrigues, Gustavo Moratta da Silva, Matheus Paviani, Vitória Oliveira Muniz, Wilton Silva Rodrigues Júnior</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Daniela Cristina Selmini</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Influência de microrganismos eficientes na germinação de plantas nativas do cerrado</p></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-008 • Sala 106</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Influência de microrganismos eficientes na germinação de plantas nativas do cerrado</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Johanna Döbereiner</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Gabriela Dias, Manuela Setin Cacimiliano, Samarah Hikari Mantovani Nagata, Richard Ueno, Maria Julia de Almeida</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Eliziane Carla Scariot</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">O Magnetismo na Escala Atômica: A Evolução do Nanomagnetismo no Brasil e o Pioneirismo da Professora Helena Maria Petrilli</p></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-009 • Sala 106</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">O Magnetismo na Escala Atômica: A Evolução do Nanomagnetismo no Brasil e o Pioneirismo da Professora Helena Maria Petrilli</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Profª. Drª. Maria Helena Petrilli</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Maria Eduarda dos Santos Moura, Ana Júlia da Silva, Livia Messi Simis, Maria Eduarda Piedadi Scardoelli, Laine Souza</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Filipe Camargo Dalmatti Alves Lima</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Metais da Vida: a Química Bioinorgânica da Professora Ana Maria da Costa Ferreira e o Papel das Mulheres na Ciência Brasileira</p></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-010 • Sala 107</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Metais da Vida: a Química Bioinorgânica da Professora Ana Maria da Costa Ferreira e o Papel das Mulheres na Ciência Brasileira</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Profª. Drª. Ana Maria da Costa Ferreira</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Júlia Vitória Castro, Samuel Arjona Teixeira de Carvalho, Nivia Thaís do Prado Santos, Angelina Duarte Bido, Ruan Felipe Ribeiro Rocha</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Filipe Camargo Dalmatti Alves Lima</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Mulheres em Camadas: a Química dos Materiais Lamelares e o Legado Científico da Professora Vera Regina Leopoldo Constantino</p></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-011 • Sala 107</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Mulheres em Camadas: a Química dos Materiais Lamelares e o Legado Científico da Professora Vera Regina Leopoldo Constantino</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Profª. Drª. Vera Regina Leopoldo Constantino</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Maria Eduarda Cuzin de Oliveira, Mariana Aparecida de Andrade, Nicolly Lorena dos Anjos, Isabela Silva Barreto, Miguel Baldoino Araujo</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Filipe Camargo Dalmatti Alves Lima</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Do Lixo ao Luxo: Kombucha Sustentável como Alternativa de Baixo Custo</p></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-012 • Sala 107</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Do Lixo ao Luxo: Kombucha Sustentável como Alternativa de Baixo Custo</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Hannah Crum</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Nicolas Kenji Sugahara, Sthefany Rodrigues Dal Rovere, Maria Eduarda Alberice, Nicoly Gavioli Marinho, Gabriel Maciel Cyniro de Carvalho</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Jane Karla de Faria Borges Machado</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Da Casca ao Pote: Ciência, Sustentabilidade e o Aproveitamento Integral dos Alimentos</p></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-013 • Sala 108</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Da Casca ao Pote: Ciência, Sustentabilidade e o Aproveitamento Integral dos Alimentos</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Dra. Ana Cristina Atti dos Santos</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Maria Eduarda dos Santos, Isabelle Nataly Pires da Silva, Cauã Correria dos Santos, Otavio Venâncio Ferreira da Silva, Guilherme Venceslau de Melo</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">João Pedro Bueno de Oliveira</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Maria Firmina dos Reis e a produção do conhecimento negro no Brasil</p></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-014 • Sala 108</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Maria Firmina dos Reis e a produção do conhecimento negro no Brasil</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Maria Firmina dos Reis</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Jaqueline de Souza Machado, Livia Maria Pereira, Laura Abrantes Lobão, Ana Lívia dos Santos, Heloísa Caroline Teodoro Marcelino</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Jonatan dos Santos Donato Alves</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Centenário da visita de Marie Curie ao Brasil: 1926 - 2026</p></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-015 • Sala 108</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Centenário da visita de Marie Curie ao Brasil: 1926 - 2026</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Marie Curie</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Sophia Gabrielle Alves da Silva, Mirela Zanoni Gimenez, Lucas Eduardo Negri, Leonardo Miguel de Souza Trindade, Edvaldo Junior Silva Araújo</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">José Antonio Maruyama</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">De origem humilde à pesquisadora internacional: a saga da araraquarense Heloisa Helena Barretto de Toledo</p></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-016 • Sala 109</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">De origem humilde à pesquisadora internacional: a saga da araraquarense Heloisa Helena Barretto de Toledo</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Heloisa Helena Barretto de Toledo</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Isabelly Rebeca de Oliveira, Jhenifer Lopes, Maria Júlia Miquelino, Kauane Vitória Nunes da Silva, Maria Emanuely Schimicoski</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Juliana Barretto de Toledo</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Mulheres na Ciência: Ana Primavesi e a Revolução Agroecológica</p></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-017 • Sala 109</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Mulheres na Ciência: Ana Primavesi e a Revolução Agroecológica</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Ana Primavesi</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Maria Eduarda Janini, Yasmim de Paula Silva, Yasmim Vitória Vieira Miranda, Vitória Luciana Martinelli, Eduardo Francisco Barbosa Andre Chrispim</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Leandro Vieira</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Representação da Cultura Indígena no Cotidiano</p></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-018 • Sala 109</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Representação da Cultura Indígena no Cotidiano</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageadas: Sônia Guajajara e Watatakalu Yawalapiti</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Maria Candida Ruiz, Vitória Muniz, Gabrielly Voltolini, Sal Fisher Paiva, Hideki Cael Tavares da Silva</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Valquíria Tenório</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Mulheres e suas contribuições para o estudo e a exploração do espaço</p></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-019 • Sala 110</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Mulheres e suas contribuições para o estudo e a exploração do espaço</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageadas: Katherine Johnson, Dorothy Vaughan, Mary Jackson e Duília de Mello</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Byanka Nayana Bordin, Evelyn Nicoly da Mota Queiroz, Ricardo Luís Felipe Filho, Vivian Isabella Vomiero Marcatto, Leticia Aparecida Ferreira de Souza</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Valquíria Tenório</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Bactérias que Alimentam o Mundo: A Revolução Verde da Agricultura Sustentável</p></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-020 • Sala 110</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Bactérias que Alimentam o Mundo: A Revolução Verde da Agricultura Sustentável</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageada: Mariangela Hungria da Cunha</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Cecília Calegari da Silva, Evellyn Moreira Rosa, Gabriela Rodrigues Morais, Igor Ferreira Master, Otávio Augusto Sena Padilha</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Vívian de Oliveira Lima</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span></td>
-    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Reconstruindo Vidas: O Papel das Mulheres Brasileiras na Medicina Regenerativa e no tratamento do câncer</p></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="segundo">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-emerald-100 text-emerald-800 border-emerald-200">2º Ano</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-021 • Sala 110</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Reconstruindo Vidas: O Papel das Mulheres Brasileiras na Medicina Regenerativa e no tratamento do câncer</p><p class="text-xs text-purple-700 font-medium mt-1">👩‍🔬 Homenageadas: Tatiana Coelho de Sampaio e Mayana Zatz</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Jenifer Santos Luiz, João Daniel Gonçalves Ferreira, Vitor Gabriel Veríssimo da Silva, Yasmin Maia de Morais, Pedro Zoppi</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Vívian de Oliveira Lima</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-022 • Sala 201</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Entre Grãos e Gotas: Produção de Etanol por Fermentação Alcoólica e Desenvolvimento de Licor de Café</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Isabella Vicente de Souza, Lucas Henrique dos Santos, Manuela Calabres França, Maria Victória de Souza, Sophia Rebeca França, Victória Micaela de Souza</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Caio Fernando Gromboni</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-023 • Sala 201</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Simulação da contaminação microbiológica e rendimento fermentativo</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Lavinnya Pontes Camargo, Ryan Luiz Da Silva, Ricardo Dos Santos Barata Filho, Marcos Roberto Heldes Júnior, Felipe Iago dos Reis</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Caroline Pigatto De Nardi</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-024 • Sala 201</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Bactérias do Rúmen na Produção de Etanol 2G</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Ana Caroline França, Ana Maria dos Santos Lourenço, Isabelly Viscardi, Pedro Wetterich Leite</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Christiann Davis Tosta e Eliziane Carla Scariot</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-025 • Sala 203</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Tijolo ecológico a partir do reaproveitamento de resíduos dos setores sucroenergético e metalúrgico</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Isabella Calegari da Silva, Laura Bergamim Cinel, Maria Leticia Pires, Raul Militão dos Santos</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Felipe Batistella Filho</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-026 • Sala 203</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Aromatização de bebidas</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Beatriz Vitória Gevezier Costa, Enzo Henrique Lino De Oliveira, Gabriel Augusto Alves e Maria Eduarda Oliveira Pio</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Fernando César Gazola</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-027 • Sala 203</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Doce raiz</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Gabriel Mora de Souza, Giovana Cristina da Silva, Isabelly Cristine Rodrigues de Souza, Maria Eduarda Henrique de Campos</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Fernando César Gazola</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-028 • Sala 205</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Aproveitamento de cascas de laranja: extração de compostos aromáticos e obtenção de hidrolato</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Breno Augusto da Mota, Miguel Otavio Biffi, Olavo Petinatti Fernandes de Abreu e Pedro Gomes Moraes Neto</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">João Pedro Bueno de Oliveira</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-029 • Sala 205</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Myrian de Toledo: Pioneirismo na Análise Instrumental da Seção de Bebidas e Doces do Instituto Adolfo Lutz (SP)</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Kauana Vitória Fonseca Prandi e Maria Victória de Souza</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Juliana Barretto de Toledo</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-030 • Sala 205</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Do café ao pão de mel</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Ágata Paola Moreira, Maria Heloísa Duarte, Miguel Dias Alixame, Milla Geovana Fernandes</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Bruna Drielen Ferreira Gonçalves e Juliana Infante</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-031 • Sala 206</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Gelato Cítrico: Morango, Limão e Manjericão</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Ester Gomes da Silva, Larissa Barroso dos Santos, Mariana de Oliveira, Jonathan Gomes das Neves</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Bruna Drielen Ferreira Gonçalves e Juliana Infante</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-032 • Sala 206</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Nhoque vegetariano</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Geovana Carvalho de Andrade, Geovana Schmidt Leite, Maria Clara da Silva, Maria Luiza Nicolau Carvalho</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Bruna Drielen Ferreira Gonçalves e Juliana Infante</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-033 • Sala 206</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">O encontro do doce com o salgado</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Amanda Rafaela do Nascimento, Caren Carla Rocha do Nascimento, Fernanda Gabrieli Carvalho Fortunato, Gabrielly Teixeira, Guilherme Henrique Chiuchi</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Bruna Drielen Ferreira Gonçalves e Juliana Infante</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-034 • Sala 207</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Pastel sem glúten com recheio agridoce de queijo e mel</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Alan Duarte Lobiano Junior, Matheus Bossini Marcondes dos Santos, Matheus Abelhaneda Travensolo, Alexandre Lima Rossini</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Bruna Drielen Ferreira Gonçalves e Juliana Infante</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-035 • Sala 207</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Ravióli de Duplo Recheio: Sabor Artesanal para a Rotina Diária</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Bianca Alves, Isabelly Gutierres, Leonardo Leite, Sophia Pires</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Bruna Drielen Ferreira Gonçalves e Juliana Infante</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-036 • Sala 207</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Sabor Para Todos</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Isabela Zanella Pereira, Julia Maria S. Barbosa, Letícia C. Oliveira, Noemy Gevezier, Paulo Henrique G. dos Santos</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Bruna Drielen Ferreira Gonçalves e Juliana Infante</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-037 • Sala 208</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Tilápia Tropical: Praticidade e sabor em uma experiência agridoce</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Ana Alice Angeloni, Giovana Paviani Bessi, Heloisa Beatriz Fincolo, Rafaella Azevedo, Richard Almeida</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Bruna Drielen Ferreira Gonçalves e Juliana Infante</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-038 • Sala 208</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Da casca ao laboratório: uma nova rota para os resíduos cítricos</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Bryan dos Santos Gonzaga, Felipe Machado Figueira, Isabela Soares de Souza, Maria Julia Pinheiro Di Santo</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Andréia Aparecida Cecílio e João Henrique Saska Romero</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-039 • Sala 208</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Do descarte ao material tecnológico: transformando resíduos metálicos em materiais do futuro</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Antonia Gabriela Barbosa Francisco, Lavinia Viale Silva, Lorena Tayrine de Sousa, Maria Fernanda Miguel Barboza, Vinicius de Souza Chiozzini</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Andréia Aparecida Cecílio e João Henrique Saska Romero</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-040 • Sala 209</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Entre reconhecimento e pertencimento: uma análise científica da percepção da comunidade de Matão sobre o IFSP – Campus Matão</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Agata Silverio de Lucca Silva, Gabriel Ferreira Santana, Luis Felipe Pereira do Carmo, Victor Rodrigues</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Andréia Aparecida Cecílio e João Henrique Saska Romero</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-041 • Sala 209</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Fato ou fake? A química entra em jogo contra a desinformação</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Igor de Melo Frauches, Natanael Ferreira Santos do Carmo, Pedro Henrique Lopes, Vytor Hugo Alves de Jesus</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Andréia Aparecida Cecílio e João Henrique Saska Romero</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-042 • Sala 209</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">O que consumimos? Uma investigação científica sobre bebidas açucaradas comercializadas no interior paulista</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Ana Laura Rebelatti, Eduardo Mattos Barboza, Julia Franca Santos, Pablo Tito Lepre da Silva, Rafaela Machado Vieira</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Andréia Aparecida Cecílio e João Henrique Saska Romero</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="terceiro">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-purple-100 text-purple-800 border-purple-200">3º Ano (Integrador)</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-043 • Sala 209</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">O que o solo revela? Investigando as terras de Matão</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Giovane Santos Lima, Diogo Ferreira Silva, Isabelle Moratta, Luan Felipe Silva, Marielly Edwiges</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Andréia Aparecida Cecílio e João Henrique Saska Romero</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">EE José Inocêncio da Costa</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">EE José Inocêncio da Costa</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-044 • Sala 111</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Do algoritmo à cidades inteligentes: A contribuição de Ada Lovelace para o mundo contemporâneo</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Davi Luis Sousa Falco e Vitor Gabriel Oliveira Martins</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Willian Guné</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">EE Profª Helena Borsetti</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">EE Profª Helena Borsetti</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-045 • Sala 111</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Mentes que criam, soluções que incluem</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Ana Beatriz Aparecida Gregio, Enzo Mendonça Bernascone, Gabriela Rodrigues de Oliveira, Heloá Beatriz Lotti, Hugo Correa Figueiredo, Julia Baldin, Laura Victória Benatti, Leonardo Rafael Paizani, Lorrane Vitória de Andrade Aro e Ryanne dos Santos Benivente</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Julia Fernanda da Silva</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">EE Profa. Chlorita de Oliveira Penteado Martins</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">EE Professora Chlorita de Oliveira Penteado Martins</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-046 • Sala 111</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Canecando: Ciência e sustentabilidade em ação</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Arany Magalhães Freitas Filho, Larissa Coutinho de Freitas, Lavynya Vitória Lima Roque, Nicole de Freitas Jordão, Rodrigo Nunes Teodoro e Walisson Mendes dos Reis Silva</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Bruna Vercesi da Costa, Ana Laura Amaral Rosa, Francisco Miguel Nogueira e Rafael Gentil</td>
 </tr>
-<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">EM Adelnio Bordignon</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span></td>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">EM Adelino Bordignon</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-047 • Sala 112</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Quatro mulheres, quatro perguntas, infinitas descobertas</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Bianca Barbosa Bergamim, Daniel Quintan Prada Marques Luiz, Isadora Fernandes Conde, Isadora Santos, João Pedro Macedo Mauri, Mateus Camargo, Maria Eduarda Mioto Fernandes, Miguel Andrella Lima, Miguel Lorenzo Magro e Pedro Gabriel De Souza</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Fernando Prada Marques Luiz</td>
 </tr>
-<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">EMEF Celso de Barros Perche (CAJU)</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span></td>
+<tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">EMEF Celso de Barros Perche (CAJU)</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-048 • Sala 112</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Tecnologias e Educação: Jogos digitais a serviço do desenvolvimento dos alunos</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Nayara Cristina Sergi, João Eduardo Luz Dos Reis, Heloise De Lima Delfino, Manuela De Arruda Maximiano, Enzo Lessa Silva, Ana Cecylia Santos Costa, Sofia Vitória Lemos Vicente, Ana Julya Reis Da Silva, Edson Queiroz Neto e Vitor Hugo Madeira Lopes</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Elisangela Fernandes Martins</td>
 </tr>
+<tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="mais-ciencia">
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">Escola Municipal Antônio Carlos Manzini</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-blue-100 text-blue-800 border-blue-200">Mais Ciência</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-055 • Sala 112</span></td>
+    <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Jornal Manzini e Projeto Mais Ciência</p></td>
+    <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Álice G. F Ribeiro, Arthur Munhoz, Beatriz Orlandini, Emanuelle Da R. Alves, Lucas V. Pimentel, Mathias Do N. Oliveira, Mirielly Ap. Da Silva, Noemi Tarantini, Rafaela N. Passerini e Rhyan Z. Pinheiro</td>
+    <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Genesi T. C. Hespanhol</td>
+</tr>
 <tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="extensao">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span></td>
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-049 • Sala 210</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Experimentando com o IFSP: Experimentação como estratégia didática</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">David Alessandro Cabral e Douglas Leite Martins Da Hora</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Caio Fernando Gromboni e Sandro Rogério de Sousa</td>
 </tr>
 <tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="extensao">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span></td>
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-050 • Sala 210</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Experimentando com o IFSP: Oxirredução no cotidiano</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Caio Pereira Ferreira, Daniel Castilho, Larissa Pires, Pamella Caruso Silva, Lucas Antonio da Silva e Felipe Diego Adriano</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Caio Fernando Gromboni e Sandro Rogério de Sousa</td>
 </tr>
 <tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="extensao">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span></td>
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-051 • Sala 210</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">A produção de marcadores de página com papel reciclado e extrato de espinafre</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Aghata Crystini Silvério, Júlia Bianca Andrade Silva, Talita Vanessa de Brito e Wesley Gabriel Mendonça</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Carolina Lourencetti e Francisco Otavio Cintra Ferrarini</td>
 </tr>
 <tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="extensao">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span></td>
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-052 • Sala 211</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Do Urucum ao papel: produção de papel reciclado com corante natural</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Adrielle Perpetuo Santos, Marina Ferreira Nicácio e Wanny Maysa Domingos Araújo</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Carolina Lourencetti e Francisco Otavio Cintra Ferrarini</td>
 </tr>
 <tr class="project-row bg-gray-50/60 hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="extensao">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span></td>
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-053 • Sala 211</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Papel reciclado e corante de hibisco: oficinas de educação ambiental</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Ana Julia Bonfim, Gabrielle Silva, Kemily Silva, Maria Julia Antunes e Maria Julia Ferrari</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Carolina Lourencetti e Francisco Otavio Cintra Ferrarini</td>
 </tr>
 <tr class="project-row bg-white hover:bg-emerald-50/50 transition-colors border-b border-gray-100" data-category="extensao">
-    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span></td>
+    <td class="p-3.5 align-top"><span class="font-bold text-gray-800 block text-xs md:text-sm">IFSP-MTO</span><span class="inline-block px-2 py-0.5 text-[11px] font-semibold rounded-full border mt-1 bg-amber-100 text-amber-800 border-amber-200">Extensão</span><span class="block text-[11px] text-gray-500 font-medium mt-1">T-054 • Sala 211</span></td>
     <td class="p-3.5 align-top"><p class="font-bold text-gray-900 leading-snug text-sm md:text-base">Produção de papel reciclado com cúrcuma: experimentação e educação ambiental</p></td>
     <td class="p-3.5 align-top text-xs md:text-sm text-gray-600 leading-relaxed">Bianca Paes de Oliveira e Bruna Rafaela Dias Monteiro</td>
     <td class="p-3.5 align-top text-xs md:text-sm font-semibold text-gray-800">Carolina Lourencetti e Francisco Otavio Cintra Ferrarini</td>
@@ -718,9 +726,29 @@
         <section id="modelos" class="py-20 bg-gray-100">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl font-bold text-center mb-3">Modelos Oficiais & Guia de Orientação (2026)</h2>
-                <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Faça o download dos templates padronizados e do guia explicativo para elaboração do resumo e montagem do painel acadêmico.</p>
+                <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Faça o download dos templates padronizados, da distribuição de salas e dos guias explicativos para elaboração do resumo e montagem do estande.</p>
                 
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
+                <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-7xl mx-auto">
+                    <!-- DISTRIBUIÇÃO DE TRABALHOS -->
+                    <div class="bg-white p-7 rounded-2xl shadow-lg border border-amber-200 text-center flex flex-col justify-between hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <div>
+                            <div class="relative mb-6">
+                                <div class="w-16 h-16 bg-amber-100 text-amber-700 rounded-2xl flex items-center justify-center mx-auto text-3xl shadow-inner">
+                                    📍
+                                </div>
+                                <span class="absolute top-0 right-1/4 bg-amber-600 text-white font-bold text-[10px] px-2.5 py-0.5 rounded-full uppercase tracking-wider">PDF</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-3 text-gray-900">Distribuição de Trabalhos</h3>
+                            <p class="text-gray-600 text-sm mb-6 leading-relaxed">
+                                Mapa completo de alocação dos 55 grupos por sala e instruções detalhadas de montagem dos estandes.
+                            </p>
+                        </div>
+                        <a href="2026/Distribuição dos Trabalhos  e Instruções de Montagem na 11ª Feira de Ciências.pdf" download class="w-full bg-amber-600 hover:bg-amber-700 text-white font-bold py-3 px-4 rounded-xl transition-all shadow-md hover:shadow-lg flex items-center justify-center gap-2 text-sm">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
+                            Baixar Distribuição (.pdf)
+                        </a>
+                    </div>
+
                     <!-- MODELO RESUMO -->
                     <div class="bg-white p-7 rounded-2xl shadow-lg border border-emerald-100 text-center flex flex-col justify-between hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                         <div>
@@ -865,11 +893,14 @@
                             </tr>
                             <tr>
                                 <td class="p-4 font-semibold text-gray-700 bg-gray-50">18h30 – 20h30</td>
-                                <td class="p-4 bg-purple-50">
-                                    <div class="text-xs text-gray-500">18h30 – 20h30: Jantar</div>
-                                    <div class="font-bold text-purple-900 mt-1">19h00 – 20h30: Abertura oficial e atração cultural</div>
-                                </td>
+                                <td class="p-4 text-gray-500 font-medium">Jantar</td>
                                 <td class="p-4 font-bold text-emerald-800 bg-emerald-50/50">Apresentação dos trabalhos</td>
+                                <td class="p-4 text-gray-400">--</td>
+                            </tr>
+                            <tr class="bg-gray-50/50">
+                                <td class="p-4 font-semibold text-gray-700 bg-gray-100">19h00 – 20h30</td>
+                                <td class="p-4 font-bold text-purple-900 bg-purple-50/50">Abertura oficial e atração cultural</td>
+                                <td class="p-4 text-gray-400">--</td>
                                 <td class="p-4 text-gray-400">--</td>
                             </tr>
                         </tbody>
